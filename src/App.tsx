@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import { Form, Input, InputNumber, Select, Space } from 'antd';
+import { Button, Form, Input, InputNumber, Select, Space } from 'antd';
 import { ArrowRightOutlined } from '@ant-design/icons';
 import './App.scss'
 import 'antd/dist/antd.css'
@@ -126,7 +126,7 @@ function App() {
                   }
                 }}
               >
-                +
+                ￥
               </span>
             )}
             onChange={(_transaction) => {
@@ -173,6 +173,15 @@ function App() {
             ))
           }
         </ul>
+
+        <Button
+          onClick={() => {
+            localStorage.clear()
+            window.location.reload()
+          }}
+        >
+          重置
+        </Button>
       </Space>
     </div>
   );
