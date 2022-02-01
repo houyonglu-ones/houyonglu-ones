@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "houyonglu-ones/build/static/css/main.0ec1ac58.css",
-    "main.js": "houyonglu-ones/build/static/js/main.bbbbf553.js",
-    "static/js/787.c3304f53.chunk.js": "houyonglu-ones/build/static/js/787.c3304f53.chunk.js",
-    "index.html": "houyonglu-ones/build/index.html",
-    "main.0ec1ac58.css.map": "houyonglu-ones/build/static/css/main.0ec1ac58.css.map",
-    "main.bbbbf553.js.map": "houyonglu-ones/build/static/js/main.bbbbf553.js.map",
-    "787.c3304f53.chunk.js.map": "houyonglu-ones/build/static/js/787.c3304f53.chunk.js.map"
+    "main.css": "/houyonglu-ones/build/static/css/main.0ec1ac58.css",
+    "main.js": "/houyonglu-ones/build/static/js/main.cc291c14.js",
+    "static/js/787.c3304f53.chunk.js": "/houyonglu-ones/build/static/js/787.c3304f53.chunk.js",
+    "index.html": "/houyonglu-ones/build/index.html",
+    "main.0ec1ac58.css.map": "/houyonglu-ones/build/static/css/main.0ec1ac58.css.map",
+    "main.cc291c14.js.map": "/houyonglu-ones/build/static/js/main.cc291c14.js.map",
+    "787.c3304f53.chunk.js.map": "/houyonglu-ones/build/static/js/787.c3304f53.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ec1ac58.css",
-    "static/js/main.bbbbf553.js"
+    "static/js/main.cc291c14.js"
   ]
 }
