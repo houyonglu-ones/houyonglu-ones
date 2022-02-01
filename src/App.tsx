@@ -65,13 +65,15 @@ function App() {
   const [receiver, setReceiver] = useState<string | undefined>()
   const [transaction, setTransaction] = useState<number>(0)
 
-  const names = players.map(({ name }) => ({
-    label: name,
-    value: name,
-  })).concat([{
+  const names = [{
     label: '银行',
     value: '银行',
-  }])
+  }].concat(
+      players.map(({ name }) => ({
+      label: name,
+      value: name,
+    }))
+  )
 
   const [key, setKey] = useState(0)
   const reRender = useCallback(() => {
